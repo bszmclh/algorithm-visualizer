@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Visualization from './algo-visualization';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Visualization />
   </React.StrictMode>,
   document.getElementById('root')
 );

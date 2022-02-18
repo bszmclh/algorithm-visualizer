@@ -1,0 +1,36 @@
+.cell {
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: #555;
+    border-width: 0.5px;
+    user-select: none;
+
+}
+
+.cell:hover{
+    animation: hovered 0.5s forwards;
+    
+
+
+}
+
+.row {
+    display: inline-block;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes hovered {
+    0% {
+      background-color: white;
+    }
+
+    100% {
+      background-color: rgb(175, 175, 175);
+    }
+  }
