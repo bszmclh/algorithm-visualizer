@@ -6,7 +6,12 @@ import Visualization from './algo-visualization';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Visualization />
+    <Visualization 
+      row={40}
+      col={20}
+      isStart={[4,9]}
+      isTarget={[35,9]}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

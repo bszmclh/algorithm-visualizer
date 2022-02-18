@@ -8,8 +8,8 @@
 
 }
 
-.cell:hover{
-    animation: hovered 0.5s forwards;
+.path:hover{
+    animation: hovered 0.2s forwards;
     
 
 
@@ -25,12 +25,27 @@
     justify-content: center;
 }
 
+.start{
+  background: green;
+}
+
+.target{
+  background-color: blue;
+}
+
+.wall{
+  background-color: #555;
+}
+
 @keyframes hovered {
     0% {
-      background-color: white;
+      
     }
 
     100% {
       background-color: rgb(175, 175, 175);
+      transform: scale(1.3);
     }
   }
+
+  
