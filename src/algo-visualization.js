@@ -58,6 +58,7 @@ export default class Visualization extends React.Component {
     handleMouseDownandUp(e){
         if(e.type === 'mousedown'){
             let newgrid = this.togglewall(this.state.grid, e.target.id);
+            console.log(document.getElementById(e.target.id).classList.value);
             this.setState({
                 mouseDown: true,
                 grid:newgrid
